@@ -1,5 +1,11 @@
 language: node_js
 node_js:
-  - "node"
+- node
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: c5yewTePfl8AbM+2aR5WmnNuKF/XXd/wFqy0ByTYxSP7sg90WIYiET1ZTzSt3KnP7CHTImRRw7Qj0xWWtPW37s8aWqRiksYsvBfp/iNFvqUfvgp6KS24/ZRX0L4PUEmMOWhvBJ26S2+tq0Wd4OzGNliXhTT4hL2SAY3tCKVJoP9dklTz0yp86/WPgIJgp0jZoHjawUMu+mGpdI7Uj3FN0B9Hr/Z6u9Luk3JR1KB6yjcnFAemODtcwBQ26x9kNdqEZ9Zjitr69vkqVUlUUcCRqZ16h5oCyPLK5zx1Ew2HOnzSS0y8OPXgeJth2OaB1FVkTol01GaDymA7ExtSdRFB9seuzRSyL6jo6MAgmv2JJWXJAbHs24SqzTXCW1d1ttRg0RbfGnIvlHUm6azovayiCfLo3PREMCCht3TQ0c0J0Y1KbdiMFdR6LoSw6TQkA00s+Lz48VYGHSiSR/iTk3Lb6RZJhWMPCPAXoBiGi1P0Y0g/lrwxDmfmVCJYHUVfR4B8gqcWJpYtvHQ8oHQlnZ/1OJg9yWZrAamu1dY2bm69gueoq4MXovu2D2N89U2aKOX2cWbcEaAc+gVOOZG5oXtmNkqyNnYCHlvf/li9QPCoUYcnbu/3GzB88wEux0CWK9QvorZtnI+JJQT/4fmRayWTquQTP+UFJGJRvtK4HmuS34s=
+  app: RancidTomatillos
+  skip_cleanup: true
